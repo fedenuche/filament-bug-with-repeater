@@ -59,6 +59,25 @@ npm run dev  # or npm run build for production
 php artisan serve
 ```
 
-## Visit: [http://127.0.0.1:8000](http://127.0.0.1:8000)
+## Visit: [http://localhost:8000](http://localhost:8000)
 
 🎉 **Your Laravel project is now set up and running!** 🚀
+
+# How to reproduce the error
+
+### 1️⃣ Login to the dashboard
+
+Go to the [dashboard](http://localhost:8000/dashboard/)
+User: admin@test.com
+Password: password
+
+### 2️⃣ Go to lessons
+
+Edit any lesson, for example the [lesson one](http://localhost:8000/dashboard/lessons/1/edit)
+
+
+### 3️⃣ Add more than one Vocabulary
+
+Using the repeater add more than one vocabulary and press save.
+
+Only one of them will be shown!
